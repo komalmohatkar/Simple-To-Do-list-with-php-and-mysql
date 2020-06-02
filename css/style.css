@@ -1,0 +1,49 @@
+input::placeholder {
+    color: red;
+  }
+#todo{
+    background: linear-gradient(157deg, rgba(35,105,255,1) 0%, rgba(45,192,253,1) 100%);
+    padding: 5% 7%;
+    border-radius: 10px;
+    margin: 0px auto;
+    top: 50px;
+}
+
+#todo label{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#todo input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#todo input:hover{
+    border: 1px solid white;
+}
+
+#todo button{
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#todo button:hover{
+    background-color: white;
+    color: #257aff;
+}
+
+#todo h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
